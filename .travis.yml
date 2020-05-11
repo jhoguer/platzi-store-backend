@@ -20,7 +20,9 @@ deploy:
   provider: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: 4b524514-1534-45d0-a8c7-4d7ee1165610
+  api_key:
+    secure: "EIv07E2K0wHBmuk7Mpw1sSZpKvyFKc6TlRUq44SRpsK06bhoJ78MyfdpwRFdyNkCkWOUxC2HlI9ta99ODntMtnmWDRzIMmYB74dtD1bcYVtYsJR+fpmc/EIvnYCUfiUPMTWEuHid8AmHhvS1AI15JI4RCb+N2Q9g8WWq0eBGhg2UVxQ0vVjg4/uyfhKEvLcb5XGo2ODK+I9p6XzeQGekpAjG3mKnjCOuKuGEjnWM0flnHBnbtJIR3XKmZtU+3jcbvVqNGHF2IZJ5ItcgW/GhlH5wQQvvsu5yPqR3xMjFZ5KIkLW6/PkYjWyv6Kb2RjqaEzjuMw6pk5zJ2JvtQabugFmuS9zQHJ5d8slpuGugPCrbTw625sNYrM6fc+DHR9vxs4Wg5ZiPLH5K+mQYlthx9phOOq0iNKeCLRaexFk9USD7FYY+vcKx2hYD+mYCs1OwsPzr3sLVAoG5xGgr86FFpzEUqDahwvEimqJt1qlH2xKlgPkhtkB+Be0lZLvUH6f/nHzT06X+5QkeGZThoaD+sGcwlX3F+YU6m9CXm7X2J1wtMnTwWbMzgJn5JA1K66ukUgjFmMrQg0qwNBEyjuOmDVKiuQFvevr8tsnEVlRiat11whnzaoBg4+4QA7MiW4B+SY37ahFUzqAsVw534IybL/2hbf8EH7MY3dH9a/6V/Gc="
+
   app: jhoguer-store-backend
   on:
     repo: jhoguer/platzi-store-backend
