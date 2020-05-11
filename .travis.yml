@@ -1,0 +1,26 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  - '12'
+git:
+  depth: 3
+script:
+  - yarn test
+notifications:
+  email:
+    recipients:
+      - jhoguer@gmail.com
+      - jhoguer1@gmail.com
+    on_success: always
+    on_failure: always
+deploy:
+  provider: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key: 4b524514-1534-45d0-a8c7-4d7ee1165610
+  app: jhoguer-store-backend
+  on:
+    repo: jhoguer/platzi-store-backend
